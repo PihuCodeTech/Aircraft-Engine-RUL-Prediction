@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project datasets
+data/
+
+# Trained models
+models/
+*.h5
+*.keras
+*.ckpt
+
+# TensorBoard logs
+tensorboard_logs/
+
+# Experiment logs
+logs/
+
+# Mac system files
+.DS_Store
