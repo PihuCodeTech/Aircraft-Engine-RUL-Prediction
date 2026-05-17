@@ -30,7 +30,7 @@ The objective is to build robust predictive maintenance models capable of estima
 NASA CMAPSS Turbofan Engine Degradation Simulation Dataset
 
 Kaggle Link:
-https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
+https://www.kaggle.com/datasets/fareselgohary003/nasa-cmapss-turbofan-engine-rul-dataset
 
 ---
 
