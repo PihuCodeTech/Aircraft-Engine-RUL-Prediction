@@ -768,12 +768,42 @@
         "        row += f\" {val:>10.1f}\" if isinstance(val,float) else f\" {val:>10}\"\n",
         "    print(row)"
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pwd\n",
+        "!find . -maxdepth 3 -type d"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FpXdzf7eGT1e",
+        "outputId": "f0eb6010-abd6-48b3-dab5-5b40ba6678a4"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content\n",
+            ".\n",
+            "./.config\n",
+            "./.config/logs\n",
+            "./.config/logs/2026.05.21\n",
+            "./.config/configurations\n",
+            "./sample_data\n"
+          ]
+        }
+      ]
     }
   ],
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPAByhKX//aXDFI6bSzg/VS",
+      "authorship_tag": "ABX9TyP68Hbdm6DlR8GDIZyLtR53",
       "include_colab_link": true
     },
     "kernelspec": {
