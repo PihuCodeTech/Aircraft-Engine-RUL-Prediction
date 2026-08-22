@@ -164,11 +164,22 @@ The current implementation uses the following primary configuration:
 | ----------------------- | ---------: |
 | Sequence Length         |         40 |
 | Batch Size              |         64 |
+| Effective Batch Size    |        128 |
 | Learning Rate           |   5 × 10⁻⁴ |
+| Weight Decay            |   1 × 10⁻⁴ |
 | Maximum Epochs          |        150 |
 | Early Stopping Patience |         45 |
 | RUL Cap                 |        125 |
-| Operating Regimes       |          6 |
+| K-Means Clusters        |          6 |
+| Transformer Layers      |          4 |
+| Attention Heads         |          8 |
+| Model Dimension         |        128 |
+| Condition Embedding     |         32 |
+| Dropout                 |       0.15 |
+| Warmup Epochs           |         12 |
+| Gradient Accumulation   |          2 |
+| Gradient Clipping       |        1.0 |
+| MC-Dropout Passes       |         25 |
 | Random Seeds            | 42, 43, 44 |
 
 The implementation is written in **PyTorch** and supports hardware acceleration through CUDA when available.
