@@ -221,7 +221,7 @@ __marimo__/
 data/raw/*
 !data/raw/.gitkeep
 
-# Trained models
+# Trained models / checkpoints
 models/
 checkpoints/
 *.pt
@@ -231,16 +231,14 @@ checkpoints/
 *.ckpt
 *.safetensors
 
-# TensorBoard logs
-tensorboard_logs/
-
 # Experiment logs
 logs/
 runs/
 wandb/
+tensorboard_logs/
 
-# Generated experiment outputs
-results/figures/*
-results/metrics/*
-!results/figures/.gitkeep
-!results/metrics/.gitkeep
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
