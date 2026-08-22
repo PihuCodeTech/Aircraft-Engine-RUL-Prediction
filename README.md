@@ -284,22 +284,9 @@ Aircraft-Engine-RUL-Prediction/
 
 ---
 
-## Technologies
-
-* Python
-* PyTorch
-* NumPy
-* Pandas
-* Scikit-learn
-* Matplotlib
-* Seaborn
-
----
-
 ## Research Focus
 
 The project focuses on:
-
 * Condition-aware RUL prediction
 * Multivariate time-series modeling
 * Operating-regime awareness
