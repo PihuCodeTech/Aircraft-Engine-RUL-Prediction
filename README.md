@@ -180,7 +180,7 @@ The implementation is written in **PyTorch** and supports hardware acceleration 
 The model uses a joint multi-task objective:
 
 ```text
-L_total = L_cls + α L_reg
+L_total = L_cls + α*L_reg
 ```
 
 where:
