@@ -218,19 +218,29 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Project datasets
-data/
+data/raw/*
+!data/raw/.gitkeep
 
 # Trained models
 models/
+checkpoints/
+*.pt
+*.pth
 *.h5
 *.keras
 *.ckpt
+*.safetensors
 
 # TensorBoard logs
 tensorboard_logs/
 
 # Experiment logs
 logs/
+runs/
+wandb/
 
-# Mac system files
-.DS_Store
+# Generated experiment outputs
+results/figures/*
+results/metrics/*
+!results/figures/.gitkeep
+!results/metrics/.gitkeep
