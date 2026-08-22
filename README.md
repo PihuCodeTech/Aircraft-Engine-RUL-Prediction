@@ -152,7 +152,7 @@ Each dataset contains:
 
 Dataset source:
 
-https://www.kaggle.com/datasets/fareselgohary003/nasa-cmapss-turbofan-engine-rul-dataset
+[https://www.kaggle.com/datasets/fareselgohary003/nasa-cmapss-turbofan-engine-rul-dataset](https://www.kaggle.com/datasets/bishals098/nasa-turbofan-engine-degradation-simulation)
 
 ---
 
